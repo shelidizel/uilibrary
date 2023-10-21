@@ -7,8 +7,8 @@ type Props = {}
 const HeroSection = (props: Props) => {
   return (
     <Container>
-        <FisrtLineTittle/>
-        <SecondLineTittle/>
+        <FisrtLineTittle>Future of work</FisrtLineTittle>
+        <SecondLineTittle>Done by essos</SecondLineTittle>
     </Container>
   )
 }
