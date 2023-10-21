@@ -19,6 +19,11 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+.fullmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .menu {
     

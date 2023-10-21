@@ -1,13 +1,13 @@
 "use client"
+import { ButtonProps } from '../../../types/propTypes'
 import { ButtonTittle, MyButton, } from './buttonElements'
 
 
 
-const Button = (
-) => {
+const Button = ({label, type, buttonColor}: ButtonProps) => {
   return (
-    <MyButton type='submit'>
-        <ButtonTittle>Login</ButtonTittle>
+    <MyButton type='submit' style={{backgroundColor : buttonColor}}>
+        <ButtonTittle>{label}</ButtonTittle>
     </MyButton>
   )
 }
