@@ -6,6 +6,11 @@ const GlobalStyles = createGlobalStyle`
 
 body {
     margin: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 `
 
